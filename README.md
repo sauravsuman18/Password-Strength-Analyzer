@@ -1,2 +1,22 @@
-# Password-Strength-Analyzer
-Developed a password auditing tool that evaluates password strength using entropy calculation, rule-based policy checks, and exposure comparison against breached password datasets. Implemented real-time feedback and scoring logic to guide users toward stronger, secure password creation. Tech: Python, Regex, HaveIBeenPwned API, Hashlib
+# 🔐 Password Strength Analyzer
+
+A beginner-friendly Python project that analyzes the strength of a password based on standard cybersecurity rules.
+
+## 🚀 Features
+- Minimum length validation
+- Uppercase and lowercase letter detection
+- Digit and special character verification
+- Classifies password as Weak, Medium, or Strong
+
+## 🛠️ Technologies Used
+- Python
+- Regular Expressions (re module)
+
+## 📌 How It Works
+1. User inputs a password
+2. Analyzer checks security conditions
+3. Password strength is displayed
+
+## ▶️ Usage
+```bash
+python password_checker.py
